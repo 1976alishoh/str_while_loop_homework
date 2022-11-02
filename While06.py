@@ -10,11 +10,10 @@ def main(s):
     a = ""
     i = 0
     while i<len(s):
-        if int(s[i])%2 == 0:
+        if s[i] != "a" and s[i] != "e" and s[i] != "i" and s[i] != "o" and s[i] != "u"  and s[i] != "A" and s[i] != "E" and s[i] != "I" and s[i] != "O" and s[i] != "U" :
             a += s[i] 
         
         i = i + 1
     a = len(a)
     return a
-print(main("56786543250"))
-print(main("123456"))
+print(main("CodeschoolUz"))
