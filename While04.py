@@ -6,4 +6,13 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    a = ""
+    i = 0
+    while i<len(s):
+        if s[i].isupper():
+            a += s[i] 
+        
+        i = i + 1
+    a = len(a)
+    return a
+print(main("CodeschoolUz"))
