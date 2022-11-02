@@ -17,3 +17,4 @@ def main(s):
     a = len(a)
     return a
 print(main("CodeschoolUz"))
+print(main("dneijdoikssjksn"))
