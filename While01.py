@@ -6,4 +6,15 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    a = ""
+    i = 0
+    while i<len(s):
+        if s[i].isdigit():
+            a += s[i] 
+        
+        i = i + 1
+    a = len(a)
+    return a
+
+print(main("python 2022"))
+print(main("e324xE"))
