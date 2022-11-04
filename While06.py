@@ -7,14 +7,15 @@ def main(s):
     Returns:
         int: return answer
     """
-    l = int()
-    a = ""
-    i = 0
+    i=0
+    count=""
+    consonant="aeiou"
     while i<len(s):
-        if s[i] != "a" and s[i] != "e" and s[i] != "i" and s[i] != "o" and s[i] != "u"  and s[i] != "A" and s[i] != "E" and s[i] != "I" and s[i] != "O" and s[i] != "U" and s[i] != l  :
-            a += s[i] 
-        
-        i = i + 1
-    a = len(a)
-    return a
+        if s[i].lower() not in consonant:
+            count+=s[i]
+        i+=1
+    count=len(count)
+    return int(count)
 print(main("CodeschoolUz"))
+
+    
