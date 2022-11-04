@@ -7,14 +7,14 @@ def main(s):
     Returns:
         int: return answer
     """
+    l = int()
     a = ""
     i = 0
     while i<len(s):
-        if s[i] != "a" and s[i] != "e" and s[i] != "i" and s[i] != "o" and s[i] != "u"  and s[i] != "A" and s[i] != "E" and s[i] != "I" and s[i] != "O" and s[i] != "U" :
+        if s[i] != "a" and s[i] != "e" and s[i] != "i" and s[i] != "o" and s[i] != "u"  and s[i] != "A" and s[i] != "E" and s[i] != "I" and s[i] != "O" and s[i] != "U" and s[i] != l  :
             a += s[i] 
         
         i = i + 1
     a = len(a)
     return a
 print(main("CodeschoolUz"))
-print(main("dneijdoikssjksn"))
