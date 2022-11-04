@@ -17,3 +17,4 @@ def main(s):
     return a
 print(main("56786543250"))
 print(main("123456"))
+
